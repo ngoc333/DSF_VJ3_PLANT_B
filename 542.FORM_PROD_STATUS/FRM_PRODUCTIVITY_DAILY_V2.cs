@@ -308,6 +308,7 @@ namespace FORM
                     e.Appearance.ForeColor = Color.White;
                 }
 
+                if (e.CellValue == null) return;
                 if (e.Column.FieldName.Contains("RATE"))
                 {
                     if (e.CellValue.ToString().Contains("G"))

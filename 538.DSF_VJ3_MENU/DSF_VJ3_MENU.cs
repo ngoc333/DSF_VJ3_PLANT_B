@@ -375,19 +375,20 @@ namespace FORM
         {
             try
             {
-                if (ComVar.Var._strValue1 == "099" || ComVar.Var._strValue1 == "015" || ComVar.Var._strValue1 == "202")
-                {
-                    ComVar.Var._strValue2 = MenuName;
-                }
+                //if (ComVar.Var._strValue1 == "099" || ComVar.Var._strValue1 == "015" || ComVar.Var._strValue1 == "202")
+                //{
+                //    ComVar.Var._strValue2 = MenuName;
+                //}
 
-                else
-                {
-                    return;
-                    //ComVar.Var._strValue1 = MenuName;
-                    //ComVar.Var._strValue2 = "000";
-                }
-                
-                
+                //else
+                //{
+                //    return;
+                //    //ComVar.Var._strValue1 = MenuName;
+                //    //ComVar.Var._strValue2 = "000";
+                //}
+
+                ComVar.Var._strValue2 = MenuName;
+
 
                 if (_dtnInit[BtnName] == "under")
                 {
